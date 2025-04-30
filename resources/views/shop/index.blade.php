@@ -9,8 +9,13 @@
 <body>
     <nav class="navbar navbar-expand navbar-dark bg-dark ps-4 pe-4">
         <div class="container-fluid d-flex justify-content-between">
-            <a class="navbar-brand fw-bold fs-3" href="#">Book.<span style="color: #4CAF50">buy</span></a>
-            <div class="navbar-nav">
+            <a class="navbar-brand fw-bold fs-1 logo" href="#">
+                Book.<span style="color: #4CAF50">buy</span>
+            </a>
+            <div class="navbar-nav d-flex justify-content-center align-items-center">
+                <a class="nav-item nav-link active me-2" href="#">
+                    <button type="button" class="btn btn-success fs-5">Utwórz aukcje</button>
+                </a>
                 <a class="nav-item nav-link active fs-5 me-2" href="#">Strona główna</a>
                 <a class="nav-item nav-link fs-5 me-2" href="#">Obserwowane</a>
                 <a class="nav-item nav-link fs-5 logout" href="#">Wyloguj</a>

@@ -1,7 +1,14 @@
-.logout{
+.logout {
     color: yellow;
 }
-.logout:hover{
+.logout:hover {
     color: red;
 }
 
+.navbar-brand{
+    font-style: italic;
+    transition: color 0.25s ease;
+}
+.navbar-brand:hover {
+    color: #4CAF50 !important;
+}
